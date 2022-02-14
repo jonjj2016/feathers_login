@@ -29,6 +29,10 @@
     },
     "oauth": {
       "redirect": "/",
+      "github":{
+        "key":"GITHUB_CLIENT",
+        "secret":"GITHUB_SECRET"
+      },
       "auth0": {
         "key": "<auth0 oauth key>",
         "secret": "<auth0 oauth secret>",
