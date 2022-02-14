@@ -15,7 +15,8 @@ exports.Users = class Users extends Service {
         email,
         avatar,
         password,
-        githubId
+        githubId,
+        permissions: [ 'user' ]
       };
       return super.create(userData, params)
     } 

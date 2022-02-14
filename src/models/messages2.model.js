@@ -1,10 +1,9 @@
-// messages-model.js - A mongoose model
+// messages2-model.js - A mongoose model
 const mongoose = require('mongoose')
-// 
 // See http://mongoosejs.com/docs/models.html
 // for more of what you can do here.
 module.exports = function (app) {
-  const modelName = 'messages';
+  const modelName = 'messages2';
   const mongooseClient = app.get('mongooseClient');
   const { Schema } = mongooseClient;
   const schema = new Schema({

@@ -9,22 +9,12 @@
     <link rel="stylesheet" href="//cdn.rawgit.com/feathersjs/feathers-chat/v0.2.0/public/chat.css">
 </head>
 <body>
-    <main id="app" class="flex flex-column">
-        <h1>
-            Welcome to feathers chat
-        </h1>
-        <form class="form" onsubmit="sendMessage(event.preventDefault())">
-            <input type="text" id="message-text" placeholder="Enter message here"/>
-            <button type="submit" class="button button-primary">
-                Send Message
-            </button>
-        </form>
-        <h2>Here are all the current messages</h2>
-
-    </main>
+    <div id="app" class="flex flex-column">
+     
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.js"></script>
     <script src="//unpkg.com/@feathersjs/client@^4.3.0/dist/feathers.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
     <script src="app.js">
      
     </script>
