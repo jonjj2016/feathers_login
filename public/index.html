@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello feathers</title>
+    <link rel="stylesheet" href="//cdn.rawgit.com/feathersjs/feathers-chat/v0.2.0/public/base.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/feathersjs/feathers-chat/v0.2.0/public/chat.css">
+</head>
+<body>
+    <main id="app" class="flex flex-column">
+        <h1>
+            Welcome to feathers chat
+        </h1>
+        <form class="form" onsubmit="sendMessage(event.preventDefault())">
+            <input type="text" id="message-text" placeholder="Enter message here"/>
+            <button type="submit" class="button button-primary">
+                Send Message
+            </button>
+        </form>
+        <h2>Here are all the current messages</h2>
+
+    </main>
+    <script src="//unpkg.com/@feathersjs/client@^4.3.0/dist/feathers.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="app.js">
+     
+    </script>
+</body>
+</html>
